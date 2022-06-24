@@ -9,4 +9,4 @@ and then:
 <br/>
 <b>npm start</b>
 <br/>
-<a href='http://localhost:3001/data' target'_blank'>http://localhost:3001/data</a>
+<a href='http://localhost:3001/data' target='_blank'>http://localhost:3001/data</a>
