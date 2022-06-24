@@ -43,7 +43,7 @@ exports.tambahMahasiswa = function (req, res) {
             if (error) {
                 console.log(error);
             } else {
-                response.ok("Successfully added the Data!", res)
+                response.ok("Successfully adding the Data!", res)
             }
         });
 };
@@ -61,7 +61,7 @@ exports.ubahMahasiswa = function (req, res) {
             if (error) {
                 console.log(error);
             } else {
-                response.ok("Successfully changing the Data", res)
+                response.ok("Successfully updating the Data", res)
             }
         });
 }

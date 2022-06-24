@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 24, 2022 at 06:53 AM
+-- Generation Time: Jun 24, 2022 at 07:17 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -63,9 +63,9 @@ CREATE TABLE `mahasiswa` (
 
 INSERT INTO `mahasiswa` (`id_mahasiswa`, `nama`, `nim`, `jurusan`) VALUES
 (1, 'Balo', '123', 'IT'),
-(2, 'Balotelli', '123', 'Hotel Accommodation'),
+(2, 'Charlie', '123', 'Hotel Accommodation'),
 (3, 'Justin', '321', 'IT'),
-(6, 'Iron Man', '123', 'IT');
+(6, 'Parsha', '123', 'IT');
 
 -- --------------------------------------------------------
 
@@ -127,7 +127,7 @@ ALTER TABLE `krs`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id_mahasiswa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_mahasiswa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `matakuliah`
